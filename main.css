@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+section{
+    text-align: center;
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#cassetteIMG{
+    opacity: 0.5;
+}
+#para{
+    font-weight: 350;
+    word-spacing: 10px;
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+a:visited{
+    color: darkgreen;
+}
+#formHEAD{
+    font-size: 50px;
+    text-align: center;
+}
+.formNAME{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 30% 0% 5% 0%;
+}
+#message{
+    text-align: center;
+    width: 800px;
+    height: 225px;
+    font-size: 25px;
+    border-style: groove;
+}
+#phone{
+    text-align: center;
+    font-size: 25px;
+    border-style: groove;
+}
+#email{
+    text-align: center;
+    font-size: 25px;
+    border-style: groove;
+}
+#firstname{
+    text-align: left;
+    font-size: 15px;
+    border-style: groove;
+}
+#lastname{
+    text-align: right;
+    font-size: 15px;
+    border-style: groove;
+}
+.formBG{
+    opacity: 0.5;
+    max-width: fit-content;
+    height: 15%;
+    object-fit: cover;
+}
